@@ -6,6 +6,16 @@ rootpath = os.path.abspath(os.path.dirname(__file__))
 def read(*parts):
     return open(os.path.join(rootpath, *parts)).read()
 
+
+packages = ["pyjadval"]
+
+package_data = {
+    "": [
+        "*.js",
+        "*.html"
+    ]
+}
+
 setup(
     name='pyjadval',
     version='0.1',
@@ -17,8 +27,9 @@ setup(
     long_description="{}".format(read("README.rst")),
     long_description_content_type="text/x-rst",
     platforms="any",
-    packages=find_packages(),
+    packages=packages,
     # package_dir={'proj': 'src/pyjadval'},
     zip_safe=False,
+    package_data=package_data,
 
 )

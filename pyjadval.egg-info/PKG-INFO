@@ -1,5 +1,5 @@
 Metadata-Version: 2.1
-Name: pyJadval
+Name: pyjadval
 Version: 0.1
 Summary: Displaying DataFrame data in tables with versatile and powerful features for quick and easy data exploration in notebooks, such as sorting, column rearrangement, searching, grouping, and other functionalities. A good alternative to the print function for DataFrame .
 Home-page: https://github.com/rostamkhani/pyJadval

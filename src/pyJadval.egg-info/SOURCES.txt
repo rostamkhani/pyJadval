@@ -1,9 +1,0 @@
-LICENSE.txt
-README.rst
-setup.py
-src/jadval/AGGrid.py
-src/jadval/__init__.py
-src/pyJadval.egg-info/PKG-INFO
-src/pyJadval.egg-info/SOURCES.txt
-src/pyJadval.egg-info/dependency_links.txt
-src/pyJadval.egg-info/top_level.txt
