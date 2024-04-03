@@ -1,0 +1,7 @@
+LICENSE.txt
+README.rst
+setup.py
+pyJadval.egg-info/PKG-INFO
+pyJadval.egg-info/SOURCES.txt
+pyJadval.egg-info/dependency_links.txt
+pyJadval.egg-info/top_level.txt
