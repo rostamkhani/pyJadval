@@ -7,7 +7,7 @@ def read(*parts):
     return open(os.path.join(rootpath, *parts)).read()
 
 setup(
-    name='pyJadval',
+    name='pyjadval',
     version='0.1',
     description='Displaying DataFrame data in tables with versatile and powerful features for quick and easy data exploration in notebooks, such as sorting, column rearrangement, searching, grouping, and other functionalities. A good alternative to the print function for DataFrame .',
     author='Aref Rostamkhani',
@@ -18,6 +18,7 @@ setup(
     long_description_content_type="text/x-rst",
     platforms="any",
     packages=find_packages(),
-    package_dir={'proj': 'src'}
+    # package_dir={'proj': 'src/pyjadval'},
+    zip_safe=False,
 
 )
