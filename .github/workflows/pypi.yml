@@ -24,25 +24,25 @@ jobs:
       with:
         python-version: "3.x"
 
-    - name: Get tags
-      run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
+    # - name: Get tags
+    #   run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
 
 
-    - name: Install build tools
-      run: |
-        python -m pip install --upgrade pip wheel build twine
+    # - name: Install build tools
+    #   run: |
+    #     python -m pip install --upgrade pip wheel build twine
 
-    - name: Build binary wheel and sdist
-      run: python -m build --sdist --wheel . --outdir dist
+    # - name: Build binary wheel and sdist
+    #   run: python -m build --sdist --wheel . --outdir dist
 
-    - name: CheckFiles
-      run: |
-        ls dist
+    # - name: CheckFiles
+    #   run: |
+    #     ls dist
 
-    - name: Test wheels
-      run: |
-        cd dist && python -m pip install pyjadval*.whl
-        python -m twine check *
+    # - name: Test wheels
+    #   run: |
+    #     cd dist && python -m pip install pyjadval*.whl
+    #     python -m twine check *
 
     # - name: Publish a Python distribution to PyPI
     #   if: success() && github.event_name == 'release'
