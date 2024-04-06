@@ -1,6 +1,8 @@
 import os
 rootpath = os.path.abspath(os.path.dirname(__file__))
 
+import AGGrid
+
 def test():
     print(rootpath)
 
