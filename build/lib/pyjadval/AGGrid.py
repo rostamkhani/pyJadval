@@ -14,7 +14,7 @@ def add_one(number):
     return number + 1
 
 
-def print2(df,count_row = 110):
+def print2(df,count_row = 110,save_result_html=False):
     lsCols = []
     for c in df.columns:
         lsCols.append({ 'field' : c})
@@ -81,10 +81,12 @@ onclick="fun1(this);" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA
     k3 = '&gt;'
     html_code = html_code.replace('_DATASET_',_dataset).replace('_COLUMNS_',_columns)
     
-    with open("index_AGG_result.html", "w") as file:
-        file.write(html_code)
+    if save_result_html == True:
+      with open("index_AGG_result.html", "w") as file:
+          file.write(html_code)
     
     html_code = html_code.replace('"',k1).replace('<',k2).replace('>',k3)
     tempHtml = temp1.replace("HTML_CONTENT",html_code)
+
     return HTML(tempHtml)
     
