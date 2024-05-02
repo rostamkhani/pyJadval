@@ -19,6 +19,8 @@ Installation
 .. code:: bash
 
     $ pip install pyjadval
+    $ pip install git+'https://github.com/rostamkhani/pyJadval'
+    $ pip install pyjadval-0.1-py3-none-any.whl
 
 or
 
@@ -31,3 +33,4 @@ Documentation
 
 https://github.com/rostamkhani/pyJadval
 
+dsf
