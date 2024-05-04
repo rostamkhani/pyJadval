@@ -19,18 +19,26 @@ Installation
 .. code:: bash
 
     $ pip install pyjadval
+
+or
+.. code:: bash
+
     $ pip install git+'https://github.com/rostamkhani/pyJadval'
-    $ pip install pyjadval-0.1-py3-none-any.whl
+
 
 or
 
 .. code:: bash
 
-    $ conda install -c conda-forge pyjadval
+    $ pip install pyjadval-0.1-py3-none-any.whl
+
 
 Documentation
 -------------
 
-https://github.com/rostamkhani/pyJadval
+.. code:: Python
+
+    from pyjadval.AGGrid import print2
+    print2(dataFrame,10000)
 
 dsf
