@@ -32,7 +32,13 @@ or
 
     $ pip install pyjadval-0.1-py3-none-any.whl
 
+<<<<<<< HEAD
 
+
+
+=======
+
+>>>>>>> 83b38102eb1c0061a304f32ab374e1ab81ce1884
 Documentation
 -------------
 
