@@ -21,6 +21,7 @@ Installation
     $ pip install pyjadval
 
 or
+
 .. code:: bash
 
     $ pip install git+'https://github.com/rostamkhani/pyJadval'
@@ -32,19 +33,17 @@ or
 
     $ pip install pyjadval-0.1-py3-none-any.whl
 
-<<<<<<< HEAD
 
 
 
-=======
-
->>>>>>> 83b38102eb1c0061a304f32ab374e1ab81ce1884
-Documentation
--------------
+How to us1
+----------
 
 .. code:: Python
 
     from pyjadval.AGGrid import print2
     print2(dataFrame,10000)
 
-dsf
+
+
+.. image:: /sample/pyjadval_print2_Screenshot.png
