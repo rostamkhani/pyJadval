@@ -16,25 +16,27 @@ A good alternative to the print function for DataFrame .
 Installation
 ------------
 
+installation using pypi:
+''''''''''''''''''''''''
 .. code:: bash
 
     $ pip install pyjadval
 
-or
 
+installation using GitHub:
+''''''''''''''''''''''''''
 .. code:: bash
 
     $ pip install git+'https://github.com/rostamkhani/pyJadval'
 
 
-or
-
-
-
+For offline installation, use the whl file:
+'''''''''''''''''''''''''''''''''''''''''''
 .. code:: bash
     
-    install offline by whl file 
     $ pip install pyjadval-0.1-py3-none-any.whl
+
+Download whl File: `pyjadval-0.1-py3-none-any.whl <https://github.com/rostamkhani/pyJadval/raw/main/dist/pyjadval-0.1-py3-none-any.whl>`_.
 
 
 
