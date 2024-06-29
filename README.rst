@@ -29,9 +29,11 @@ or
 
 or
 
-install offline by whl file 
-.. code:: bash
 
+
+.. code:: bash
+    
+    install offline by whl file 
     $ pip install pyjadval-0.1-py3-none-any.whl
 
 
