@@ -29,6 +29,7 @@ or
 
 or
 
+install offline by whl file 
 .. code:: bash
 
     $ pip install pyjadval-0.1-py3-none-any.whl
@@ -36,7 +37,7 @@ or
 
 
 
-How to us1
+How to us
 ----------
 
 .. code:: Python
