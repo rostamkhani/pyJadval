@@ -1,6 +1,7 @@
 
+********
 pyJadval
-========
+********
 
 .. image:: https://github.com/rostamkhani/pyJadval/blob/main/logo-pyjadval.png
    :height: 140px
@@ -14,7 +15,7 @@ Displaying DataFrame data in tables with versatile and powerful features for qui
 A good alternative to the print function for DataFrame .
 
 Installation
-------------
+============
 
 installation using pypi:
 ''''''''''''''''''''''''
@@ -42,7 +43,7 @@ Download whl File: `pyjadval-0.1-py3-none-any.whl <https://github.com/rostamkhan
 
 
 How to us
-----------
+=========
 
 .. code:: Python
 
