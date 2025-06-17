@@ -17,13 +17,6 @@ A good alternative to the print function for DataFrame .
 Installation
 ============
 
-installation using pypi:
-''''''''''''''''''''''''
-.. code:: bash
-
-    $ pip install pyjadval
-
-
 installation using GitHub:
 ''''''''''''''''''''''''''
 .. code:: bash
